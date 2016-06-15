@@ -36,7 +36,7 @@ $(function () {
                 type: 'DELETE',
                 url: "api/books.php?id=" + divId,
                 dataType: 'json',
-               success:
+                success:
                         function () {
                             location.reload();
                         }
