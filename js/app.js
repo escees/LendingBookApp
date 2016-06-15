@@ -93,7 +93,7 @@ $(function () {
             data: {id: divId, title: title, author: author, desc: desc},
             success: function () {
                 alert('Update udany!');
-//                location.reload();
+                location.reload();
             },
             error: function () {
                 alert('Update nieudany');
