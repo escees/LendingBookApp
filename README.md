@@ -1,6 +1,6 @@
-# Celem warsztatów jest napisanie pełnej i funkcjonalnej aplikacji do wypożyczania książek
+# Celem warsztatów jest napisanie pełnej i funkcjonalnej aplikacji do wypożyczania książek metodą REST. 
 
-metodą REST. Projekt będzie składał się z dwóch części:
+Projekt będzie składał się z dwóch części:
 
 • Serwer: napisany w PHP, implementujący funkcjonalność REST,
 
