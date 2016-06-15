@@ -61,7 +61,7 @@ class Book {
         if (!(is_string($name) && is_string($author) && is_string($desc))) {
             return false;
         }
-        $sql = "UPDATE ksiazki SET nazwa='" . addslashes($name) . "', autor='" . addslashes($author) . "', opis='" . addslashes($desc) . "' WHERE id=" . $this->id ;
+        $sql = "UPDATE ksiazki SET nazwa='" . $conn->escape_string($name) . "', autor='" . $conn->escape_string($author) . "', opis='" . $conn->escape_string($desc) . "' WHERE id=" . $this->id ;
         $conn->query($sql);
 
 
